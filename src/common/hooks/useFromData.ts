@@ -14,7 +14,7 @@ export const useFromData = () => {
     }
   }
   const handleFormFinish = () => {
-    console.log(formData)
+    console.log(JSON.stringify(formData))
   }
 
   const disabledDate = (current: Dayjs) => {
